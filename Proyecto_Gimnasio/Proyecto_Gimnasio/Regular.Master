@@ -1,0 +1,26 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Regular.master.cs" Inherits="Proyecto_Gimnasio.Regular" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <link href="CSS/Estilos.css" rel="stylesheet" />
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title></title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+        <div>
+            <ul>
+                <li><a href="Inicio.aspx">Inicio</a></li>
+                <li><a href="Facturacion.aspx">Facturacion</a></li>
+                <li><a href="UsuariosR.aspx">Perfil</a>
+            </ul>
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+            </asp:ContentPlaceHolder>
+        </div>
+    </form>
+</body>
+</html>
